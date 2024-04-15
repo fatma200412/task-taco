@@ -48,7 +48,7 @@ header .containerHeader .box1 .item {
 header .containerHeader .box1 .item h1 {
   background-color: #ffc600;
   margin-bottom: 10px;
-  display: inline-block;
+  /* display: inline-block; */
 }
 header .containerHeader .box1 .item p {
   background-color: #ffc600;
@@ -101,7 +101,7 @@ header .containerHeader .box3 .name {
   font-size: 13px;
   font-weight: bold;
 }
-.links li:hover{
+.links li:hover {
   transform: scale(2);
 }
 .links li a:hover {
