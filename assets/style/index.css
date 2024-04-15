@@ -18,6 +18,9 @@ body {
   border: none;
   background-color: #ffc600;
 }
+.tablet-icon button:hover {
+  background-color: #ff9d00;
+}
 header {
   width: 95%;
   margin: 20px auto;
@@ -89,6 +92,7 @@ header .containerHeader .box3 .name {
   height: 30px;
   text-align: center;
   padding-top: 5px;
+  transition: 2s;
 }
 .links li a {
   background-color: #ffc600;
@@ -97,7 +101,12 @@ header .containerHeader .box3 .name {
   font-size: 13px;
   font-weight: bold;
 }
-
+.links li:hover{
+  transform: scale(2);
+}
+.links li a:hover {
+  background-color: #ff9d00;
+}
 .menu {
   width: 95%;
   margin: 20px auto;
